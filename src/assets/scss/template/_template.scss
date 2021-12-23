@@ -191,3 +191,50 @@ html, body, .body {
         }
     }
 }
+
+.footer-top {
+    background: #222D37;
+    background-color: #222D37;
+    color: white;
+    & > tbody > tr > th {
+        padding: 30px 30px 25px 30px !important;
+    }
+    .top-row-first {
+        th {
+            padding: 0 !important;
+        }
+        .circle-logo {
+            display: block;
+            margin: 0 auto;
+        }
+    } 
+    .info-section {
+        & > table > tbody > tr > th {
+            color: white;
+        }
+        .call-to-action {   
+            display: block;
+            font-size: 14px;
+            padding-left: 10px;
+        }
+        .info {
+            display: block;
+            font-size: 12px;
+            padding-left: 10px;
+            hyphens: none;
+        }
+    }
+    .store-logos {
+        .appstore-column {
+            padding-right: 0;
+            padding-bottom: 5px;
+        }
+        .playstore-column {
+            padding-left: 0;
+        }
+        img {
+            height: 40px;
+            width: 120px;
+        }
+    }
+}
