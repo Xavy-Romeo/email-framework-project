@@ -16,7 +16,7 @@
 // 1. Global
 // ---------
 
-$primary-color: #2199e8;
+$primary-color: #ff690f;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -29,11 +29,11 @@ $white: #fefefe;
 $pre-color: #ff6908;
 $global-width: 580px;
 $global-width-small: 95%;
-$global-gutter: 0;
+$global-gutter: 20px;
 $body-background: #e4e5ea;
 $container-background: $white;
 $global-padding: 0;
-$global-margin: 0;
+$global-margin: 20px;
 $global-radius: 3px;
 $global-rounded: 500px;
 $global-breakpoint: $global-width + $global-gutter;
