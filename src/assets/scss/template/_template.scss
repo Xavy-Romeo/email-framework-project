@@ -46,9 +46,12 @@ html, body, .body {
 .deal-of-day {
     background: #13191f;
     background-color: #13191f;
+    // .deal-of-day-column {
+    //     padding-top: 30px !important;
+    // }
     .columns {
         th {
-            padding: 30px 0 20px 0;
+            padding: 30px 0 20px 0 !important;
         }
         & > table {
             table-layout: fixed;
@@ -108,14 +111,17 @@ html, body, .body {
     background: #f1f4f7;
     background-color: #f1f4f7;
     & > tbody > tr > th {
-        padding: 15px 20px;
+        padding: 15px 20px !important;
     }
     .offer {
         background: white;
         background-color: white;
         .columns {
             th {
-                padding: 20px;
+                padding: 20px !important;
+            }
+            .expander {
+                padding: 0 !important;
             }
             & > table {
                 table-layout: fixed;
@@ -174,6 +180,9 @@ html, body, .body {
                 padding-bottom: 0;
                 margin: 0 auto;
             }
+            .expander {
+                padding: 0 !important;
+            }
             h5 {
                 color: #334755;
                 font-weight: 600;
@@ -192,16 +201,20 @@ html, body, .body {
     }
 }
 
+.footer {
+    margin-bottom: 300px !important;
+}
+
 .footer-top {
     background: #222D37;
     background-color: #222D37;
     color: white;
     & > tbody > tr > th {
-        padding: 30px 30px 25px 30px !important;
+        padding: 30px !important;
     }
     .top-row-first {
         th {
-            padding: 0 !important;
+            padding: 5px 0 !important;
         }
         .circle-logo {
             display: block;
@@ -226,15 +239,46 @@ html, body, .body {
     }
     .store-logos {
         .appstore-column {
-            padding-right: 0;
-            padding-bottom: 5px;
+            & > table > tbody > tr > th {
+                padding: 5px 0 !important;
+            }
         }
         .playstore-column {
-            padding-left: 0;
+            & > table > tbody > tr > th {
+                padding: 5px 0 !important;
+            }
         }
         img {
             height: 40px;
             width: 120px;
         }
+    }
+}
+
+.footer-social {
+    background: #14181c;
+    background-color: #14181c;
+    & > tbody > tr > th {
+        padding: 20px !important;
+    }
+    th {
+        padding: 0;
+    }
+    .logo-section {
+        vertical-align: middle !important;
+        img {
+            width: 128px;
+        }
+    }
+    .social-icons {
+        .social-icon-column {
+            padding: 0 !important;
+            img {
+                display: block;
+                margin: 0 auto;
+                height: 32px;
+            }
+        }
+        
     }
 }
